@@ -42,3 +42,32 @@ functions/various/pdist2.m
 functions/various/pdist2.m
 functions/various/lipariColorMap.m
 functions/various/naviaColorMap.m
+backup/
+status.md
+/tests
+
+# The code of version 2.0 ships P-coded: the .p beside each source is committed, the .m stays local.
++dscmapp/**/*.m
+@dscData/*.m
+gui/adapters/*.m
+
+# The elastix registration tools ship P-coded like the rest of the code: the .p beside each source is
+# committed, the .m stays local.
+functions/registration/registration_tools/code/changeParameterInElastixFile.m
+functions/registration/registration_tools/code/elastix.m
+functions/registration/registration_tools/code/elastixYAML2struct.m
+functions/registration/registration_tools/code/elastix_paramStruct2txt.m
+functions/registration/registration_tools/code/elastix_parameter_read.m
+functions/registration/registration_tools/code/elastix_parameter_write.m
+functions/registration/registration_tools/code/invertElastixTransform.m
+functions/registration/registration_tools/code/mhd_read.m
+functions/registration/registration_tools/code/mhd_read_header.m
+functions/registration/registration_tools/code/mhd_read_volume.m
+functions/registration/registration_tools/code/mhd_write.m
+functions/registration/registration_tools/code/readTransformedPointsFile.m
+functions/registration/registration_tools/code/readWholeTextFile.m
+functions/registration/registration_tools/code/struct2varargin.m
+functions/registration/registration_tools/code/transformix.m
+functions/registration/registration_tools/code/updateTransformFileDirFields.m
+functions/registration/registration_tools/code/validateElastixParam.m
+functions/registration/registration_tools/code/writePointsFile.m
